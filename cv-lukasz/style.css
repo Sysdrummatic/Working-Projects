@@ -1,0 +1,30 @@
+body {
+    font-family: "Kanit", sans-serif;
+    font-family: "Montserrat", sans-serif;
+    background: #e5e5e5;
+}
+
+.containter1 {
+    border: 1px solid black;
+}
+
+.containter2 {
+    border: 1px solid black;
+    display: flex;
+}
+
+menu {
+    border: 1px solid red;
+
+    height: 200px;
+}
+
+main {
+    border: 1px solid blue;
+    width: 800px;
+}
+
+aside {
+    border: 1px solid green;
+    width: 300px;
+}
