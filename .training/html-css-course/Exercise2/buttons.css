@@ -1,0 +1,155 @@
+.subscribe-button {
+    background-color: rgb(204, 0, 0);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 4px;
+    margin-left: 4px;
+    transition: opacity 0.15s;
+}
+
+.subscribe-button:hover {
+    opacity: 0.5;
+}
+
+.subscribe-button:active {
+    opacity: 0.25;
+}
+
+.join-button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(6, 95, 212);
+    border-color: rgb(6, 95, 212);
+    border-style: solid;
+    border-width: 1px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 4px;
+    margin-left: 4px;
+    transition: background-color 0.15s, color 0.15s;
+}
+
+.join-button:hover {
+    background-color: rgb(6, 95, 212);
+    color: rgb(255, 255, 255);
+}
+
+.join-button:active {
+    opacity: 0.75;
+}
+
+.tweet-button {
+    background-color: rgb(29, 155, 240);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 18px;
+    margin-right: 4px;
+    margin-left: 4px;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+}
+
+.tweet-button:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.section-margins {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.link-margins {
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+.nav-button {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.stretch-button {
+    background-color: green;
+    color: white;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: 8px;
+    margin-right: 8px;
+    border: none;
+    cursor: pointer;
+    transition: padding-top 0.15s, padding-botom 0.15s, padding-left 0.15s,
+        padding-right 0.15s;
+}
+
+.stretch-button:hover {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.shadow-button {
+    background-color: green;
+    color: white;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: 8px;
+    margin-right: 8px;
+    cursor: pointer;
+    border: none;
+}
+
+.shadow-button:hover {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.shadow-button:active {
+    margin-top: 2px;
+    margin-left: 10px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);
+}
+
+.exp-button {
+    background-color: green;
+    color: white;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: 8px;
+    margin-right: 8px;
+    cursor: pointer;
+    border: none;
+    transition: margin-left 0.15s, margin-right 0.15s, padding-left 0.15s,
+        padding-right 0.15s;
+}
+
+.exp-button:hover {
+    padding-left: 22px;
+    padding-right: 22px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
